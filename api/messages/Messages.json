@@ -1,0 +1,58 @@
+{
+    "addSuccess":{
+        "code":201,
+        "message":"Created."
+    },
+    "updateSuccess":{
+        "code":200,
+        "message":"Ok."
+    },
+    "getSuccess":{
+        "code":200,
+        "message":"Ok."
+    },
+    "deleteSuccess":{
+        "code":204,
+        "message":"No Content."
+    },
+    "sourceNotFound":{
+        "code":410,
+        "message":"Gone."
+    },
+    "sourceNotAvailable":{
+        "code":404,
+        "message":"NotFound."
+    },
+    "notAuthorized":{
+        "code":403,
+        "message":"Forbidden."
+    },
+    "notUnderstood":{
+        "code":400,
+        "message":"BadRequest."
+    },
+    "unAuthorized":{
+        "code":401,
+        "message":"Un Authorized."
+    },
+    "userNameAlreadyExist":{
+        "code":409,
+        "message":"User Name Already Exist."
+    },
+    "userEmailAlreadyExist":{
+        "code":409,
+        "message":"User Email Already Exist."
+    },
+    "passwordHashMethodNotAllowed":{
+        "code":409,
+        "message":"Password Hash Method Not Allowed."
+    },
+    "userLoginFailed":{
+        "code":406,
+        "message":"Username Or Password Incorrect."
+    },
+    "userLoginSuccess":{
+        "code":200,
+        "message":"User Login Succeeded."
+    }
+}
